@@ -12,15 +12,15 @@
 	<div class="navbar">
 		<div class="foody">Foody.</div>
 		<ul class="menubar">
-			<li class=link>Home</li>
+			<li class=link><a class="nav__link" href="index.html">Home</a></li>
 			<li class=link>|</li>
-			<li class=link>About</li>
+			<li class=link><a class="nav__link" href="#about">About</a></li>
 			<li class=link>|</li>
-			<li class=link>Menu</li></li>
+			<li class=link><a class="nav__link" href="#menu">Menu</a></li></li>
 			<li class=link>|</li>
-			<li class=link>Service</li></li>
+			<li class=link><a class="nav__link" href="#special">Services</a></li></li>
 			<li class=link>|</li>
-			<li class=link>Contact</li></li>
+			<li class=link><a class="nav__link" href="#reserve">Contact</a></li></li>
 			<li class=link><svg xmlns="http://www.w3.org/2000/svg" width="27.976" height="20.023" viewBox="0 0 27.976 20.023">
 				<g id="Group_20" data-name="Group 20" transform="translate(-1712 -35)">
 					<line id="Line_4" data-name="Line 4" x2="24.976" transform="translate(1713.5 36.5)" fill="none" stroke="#f2f2f2" stroke-linecap="round" stroke-width="3"/>
@@ -28,17 +28,17 @@
 					<line id="Line_6" data-name="Line 6" x2="24.976" transform="translate(1713.5 53.523)" fill="none" stroke="#f2f2f2" stroke-linecap="round" stroke-width="3"/>
 				</g>
 			</svg></li>
-			<li class="link"><a href="http://example.com"><button class=greenbox>Buy Now</button></a></li>
+			<li class="link"><a href="#reserve"><button class=greenbox>Buy Now</button></a></li>
 		</ul>
 	</div>
 	<div class="hero">
 		<div class="hero__text">
 			<h1 id=hero_h1>Making Food Taste Better</h1>
 			<h3 id=hero_h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-			<a class=greenbox href="http://example.com">More Details</a>
+			<button class=greenbox href="#about">More Details</button>
 		</div>
 	</div>
-	<div class="about section">
+	<div class="about section" id="about">
 		<div class="about__text">
 			<h1 id=about_h1>About Us</h1>
 			<div id=abouttext__div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br>
@@ -49,7 +49,7 @@
 	</div>
 </div>
 
-<div class="special section">
+<div class="special section" id="special">
 	<h1 id="special_h1">Our Specialities</h1>
 	<h3 id="special_h3">Donec velit neque, acutor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla por or accumsan tincidunt</h3>
 	<div id="special__row">
@@ -85,7 +85,7 @@
 </div>
 
 </div>
-<div class="menu">
+<div class="menu" id="menu">
 	<h1 id="menu__h1">Our Menu</h1>
 	<h3 id="menu__h3">Donec velit neque, acutor sit amet aliquam vel, ullamcorper sit amet ligula.</h3>
 	<h4 id="menu__h4">_________</h4>
@@ -147,25 +147,25 @@
 							</div>
 						</div>
 					</div>
-				<div id="menu__button">More Details</div>	
+				<button id="menu__button">More Details</button>	
 				</div>
 	
 
-					<div class="reserve section">
+					<div class="reserve section" id="reserve">
 						<h1 id="reserve__h1">Book a Table</h1>
 						<h3 id="reserve__h3">Donec velit neque, acutor sit amet aliquam vel, ullamcorper sit amet ligula.</h3>
 						<div class="reserve__container">
 							<div class="reserve__caption">Choose a date
-								<div class="reserve__box"><img class="reserve__pics" src="img/date.png" alt="Choose Date"/></div>
+								<div class="reserve__box"><input class=reserve__input></input><button class=reserve__green>\/</button></div>
 							</div>
 							<div class="reserve__caption">Choose a time
-								<div class="reserve__box"><img class="reserve__pics" src="img/time.png" alt="Choose a Time"/></div>
+								<div class="reserve__box"><input class=reserve__input></input><button class=reserve__green>\/</button> </div>
 							</div>
 							<div class="reserve__caption">Number of people
-								<div class="reserve__box"><img class="reserve__pics" src="img/people.png" alt="Number of People"/></div>
+								<div class="reserve__box"><input class=reserve__input></input><button class=reserve__green>\/</button></div>
 							</div>
 						</div>
-						<div id="reserve__button">Book Now</div>
+						<button id="reserve__button">Book Now</button>
 
 
 </div> 
